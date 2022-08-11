@@ -1,0 +1,42 @@
+.body{
+box-sizing: border-box;
+margin:0;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+
+.button{
+    display:block;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border:none;
+    transition: filter 1s ease;
+}
+
+.button:hover,
+.button:focus{
+    filter: sepia(70%);
+}
+
+link{
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+}
+
+.link:link,
+.link:visited,
+.link:active{
+    color: #1B1C21;
+    text-decoration: none;
+}
+
+.link--active:link,
+.link--active:visited,
+.link--active:active{
+    color: #7E7E82;
+}

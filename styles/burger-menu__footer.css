@@ -1,0 +1,50 @@
+.burger-menu__footer{
+    margin-top:auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts{
+    display:flex;
+}
+
+.contacts__button--action--call{
+    margin-right:16px;
+    background:url(../images/icons/call.svg) no-repeat center center ;
+}
+
+.contacts__button--action--chat{
+    margin-right:16px;
+    background:url(../images/icons/chat.svg) no-repeat center center ;
+}
+
+.contacts__button--action--profile{
+    background:url(../images/icons/profile.svg) no-repeat center center ;
+}
+
+.mail{
+    font-family: 'TT Lakes';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+}
+
+.phonenumber{
+    font-family: 'TT Lakes';
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.6px;
+    color: #1B1C21;
+}
+
+.language__list{
+    display:flex;
+    padding:0;
+    list-style: none;
+
+}
+
+.language__item{
+    margin-right:7px;
+}

@@ -1,0 +1,26 @@
+.burger-menu__main{
+    background-color: #FFFFFF;
+    padding:0;
+    margin-bottom:auto;
+}
+
+.burger-menu__list{
+    padding:0;
+    list-style: none;
+}
+
+.list__item{
+    margin-bottom:30px;
+}
+
+.list__item--active::before{
+    content: "";
+    display:block;
+    width: 4px;
+    height: 32px;
+    border-radius: 0 25% 25% 0;
+    background: #41F6D7;
+    position:absolute;
+    left:0px;
+    top:135px;
+}
